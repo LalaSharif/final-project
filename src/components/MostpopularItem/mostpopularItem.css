@@ -1,0 +1,16 @@
+.popItem {
+  display: flex;
+  justify-content: center;
+}
+.poptext {
+  width: 84%;
+}
+
+.poptext h4 {
+  color: #b8926a;
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}

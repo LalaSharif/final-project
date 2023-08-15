@@ -1,0 +1,31 @@
+.catItem {
+  height: 200px;
+  margin: 0 10px;
+  position: relative;
+}
+
+.catItem img {
+  width: 100%;
+  height: 100%;
+}
+
+.catItem__blur {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px 0px 0px 10px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--background, #eae6df);
+  font-family: var(--font-family2);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 125% */
+}

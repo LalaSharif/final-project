@@ -1,0 +1,84 @@
+.aboutus {
+  display: flex;
+  margin: 70px 20px;
+}
+.aboutusleft {
+  margin: 10px;
+}
+.aboutusright {
+  font-family: var(--font-family2), sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 30px 10px;
+}
+
+.aboutusright button {
+  color: #b8926a;
+  font-family: var(--font-family2);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 10px 90px;
+  border-radius: 5px;
+  background-color: #eae6df;
+  border: 1px solid #b8926a;
+  border-color: #b8926a;
+  margin: 50px 0px;
+  cursor: pointer;
+}
+
+.informations {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 140px;
+}
+
+.number {
+  color: #b8926a;
+  font-family: var(--font-family1);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.text {
+  color: #2d2d2b;
+  font-family: var(--font-family2);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+h2 {
+  padding: 60px;
+}
+
+@media only screen and (max-width: 320px) {
+  .aboutus {
+    margin: 30px 10px;
+    flex-direction: column;
+  }
+
+  .aboutusleft,
+  .aboutusright {
+    margin: 10px 0;
+  }
+
+  .aboutusright button {
+    padding: 10px 40px;
+  }
+  .aboutusright {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .aboutusleft img,
+  .aboutusright p {
+    text-align: center;
+  }
+}

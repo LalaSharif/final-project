@@ -1,0 +1,29 @@
+.products__wrapper {
+  display: flex;
+  /* padding: 30px; */
+}
+.products_list {
+  flex: 1;
+}
+.products__wrapper .products_box {
+  flex: 3;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.products_categories h4,
+.products__collections h4 {
+  color: #b8926a;
+  font-family: var(--font-family2);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+.products_categories,
+.products__collections {
+  color: #2d2d2b;
+  font-family: var(--font-family2);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}

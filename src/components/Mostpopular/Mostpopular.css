@@ -1,0 +1,47 @@
+.mostpopular__section {
+  padding: 0 -10px;
+  margin-top: 60px;
+}
+
+.mostpopular__section__button.right svg,
+.mostpopular__section__button.left svg {
+  color: #b8926a;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.mostpopular__section__buttons {
+  display: flex;
+  column-gap: 0.7rem;
+  width: max-content;
+  float: right;
+  margin-top: 30px;
+  margin-right: 8px;
+}
+.mostpopular__section .slick-next {
+  top: 250px;
+  right: 10px;
+}
+.mostpopular__section .slick-next::before {
+  content: "→" !important;
+  color: #b8926a;
+  font-size: 24px;
+}
+
+.mostpopular__section .slick-prev {
+  top: 250px;
+  left: 95%;
+}
+.mostpopular__section .slick-prev::before {
+  content: "←" !important;
+  color: #b8926a;
+  font-size: 24px;
+}
+h2 {
+  color: #2d2d2b;
+  font-family: var(--font-family1);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}

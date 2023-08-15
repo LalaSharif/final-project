@@ -1,0 +1,36 @@
+.banner {
+  background-image: url(../../assets/images/Rectangle\ 106.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 62px 0;
+}
+
+.banner_text h2 {
+  position: relative;
+  font-family: var(--font-family1);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+.banner_text p {
+  font-family: var(--font-family2);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+.banner_text {
+  max-width: 501px;
+  margin: 0 auto;
+}
+
+.banner .shop-button {
+  display: block;
+  margin: 42px auto 0 auto;
+  padding: 20px 130px;
+}

@@ -1,0 +1,34 @@
+.products h3 {
+  font-family: var(--font-family1);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.products h6 {
+  font-family: var(--font-family2);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.products p {
+  font-family: var(--font-family2);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #b8926a;
+}
+.products_box-item {
+  cursor: pointer;
+}
+.products_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 10px;
+  gap: 20px;
+}

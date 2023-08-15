@@ -1,0 +1,43 @@
+.collections__section {
+  padding: 0 -10px;
+  margin-top: 60px;
+}
+
+.collections__section__button.right svg,
+.collections__section__button.left svg {
+  color: #b8926a;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.collections__section__buttons {
+  display: flex;
+  column-gap: 0.7rem;
+  width: max-content;
+  float: right;
+  margin-top: 30px;
+  margin-right: 8px;
+}
+.collections__section .slick-next {
+  top: 250px;
+  right: 10px;
+}
+.collections__section .slick-next::before {
+  content: "→" !important;
+  color: #b8926a;
+  font-size: 24px;
+}
+
+.collections__section .slick-prev {
+  top: 250px;
+  left: 95%;
+}
+.collections__section .slick-prev::before {
+  content: "←" !important;
+  color: #b8926a;
+  font-size: 24px;
+}
+
+.collections__section {
+  margin: 0 -10px;
+}

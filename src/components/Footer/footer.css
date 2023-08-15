@@ -1,0 +1,44 @@
+.logo {
+  color: var(--black, #2d2d2b);
+  text-align: center;
+  font-family: var(--font-family1);
+  font-size: 52.2px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 58px;
+  margin: 0;
+}
+.footer_up {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_up p {
+  color: var(--black, #717171);
+  font-family: var(--font-family2);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.footer_down p {
+  color: var(--black, #2d2d2b);
+  font-family: var(--font-family2);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.footer__text {
+  max-width: 250px;
+}
+
+.footer__right {
+  display: flex;
+  column-gap: 100px;
+}
+
+.footer {
+  margin-top: 150px;
+}
